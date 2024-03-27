@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b206c34-ff31-46c1-a47e-c4b6123d4a63" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2eGYwxkF9t5LKoWzaTI7bTxcdLF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/jungle/github/zz-guide/spring-guide/spring-demo1/src/main/java/org/zz/processor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\jungle\github\zz-guide\spring-guide\spring-demo1\src\main\java\org\zz\processor" />
+      <recent name="E:\jungle\github\zz-guide\spring-guide\spring-demo1\src\main\resources\properties" />
+      <recent name="E:\jungle\github\zz-guide\spring-guide\spring-demo1\src\main\resources\beans" />
+      <recent name="E:\jungle\github\zz-guide\spring-guide" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\jungle\github\zz-guide\spring-guide\spring-aop\src\main\java\org.zz" />
+      <recent name="E:\jungle\github\zz-guide\spring-guide\spring-demo1\src\main\java\org\zz" />
+      <recent name="E:\jungle\github\zz-guide\spring-guide\spring-demo1\src\main\resources\beans" />
+      <recent name="E:\jungle\github\zz-guide\spring-guide\spring-demo1\src\main\resources\properties" />
+      <recent name="E:\jungle\github\zz-guide\spring-guide" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.zz.entity" />
+      <recent name="org.zz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TeacherTests.testConstructorInject">
+    <configuration name="StudentTests.createBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zz" />
+      <option name="MAIN_CLASS_NAME" value="org.zz.StudentTests" />
+      <option name="METHOD_NAME" value="createBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTests.testApplicationContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zz" />
+      <option name="MAIN_CLASS_NAME" value="org.zz.StudentTests" />
+      <option name="METHOD_NAME" value="testApplicationContext" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTests.testBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zz" />
+      <option name="MAIN_CLASS_NAME" value="org.zz.StudentTests" />
+      <option name="METHOD_NAME" value="testBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTests.testConstructorInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zz" />
+      <option name="MAIN_CLASS_NAME" value="org.zz.TeacherTests" />
+      <option name="METHOD_NAME" value="testConstructorInject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTests.testFieldInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.zz" />
+      <option name="MAIN_CLASS_NAME" value="org.zz.TeacherTests" />
+      <option name="METHOD_NAME" value="testFieldInject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TeacherTests.testConstructorInject" />
+        <item itemvalue="JUnit.TeacherTests.testFieldInject" />
+        <item itemvalue="JUnit.StudentTests.testBean" />
+        <item itemvalue="JUnit.StudentTests.testApplicationContext" />
+        <item itemvalue="JUnit.StudentTests.createBean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b206c34-ff31-46c1-a47e-c4b6123d4a63" name="Changes" comment="" />
+      <created>1711532623232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711532623232</updated>
+      <workItem from="1711532624232" duration="140000" />
+      <workItem from="1711532826514" duration="5000" />
+      <workItem from="1711532870970" duration="7000" />
+      <workItem from="1711545100224" duration="984000" />
+      <workItem from="1711546090537" duration="5705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
