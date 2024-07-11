@@ -11,7 +11,7 @@
 
     <name>spring-demo1</name>
     <description>spring-demo1</description>
-    <artifactId>spring-demo1</artifactId>
+    <artifactId>learn-spring-xml</artifactId>
 
     <dependencies>
         <dependency>
