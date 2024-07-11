@@ -4,7 +4,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--import 标签，用来导入其他xml标签-->
-    <import resource="./beans/student.xml"/>
-    <import resource="./beans/teacher.xml"/>
+    <import resource="./beans/base.xml"/>
+    <import resource="./beans/base-alias.xml"/>
+    <import resource="./beans/base-life-cycle.xml"/>
+    <import resource="./beans/base-life-cycle2.xml"/>
+    <import resource="./beans/base-scope.xml"/>
+    <import resource="./beans/base-property-inject.xml"/>
+    <import resource="./beans/base-constructor-inject.xml"/>
 </beans>

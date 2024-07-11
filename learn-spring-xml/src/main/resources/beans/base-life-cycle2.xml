@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd" default-lazy-init="true">
+
+    <!-- beans 标签的 default-lazy-init 属性，用来管控所有的bean 延迟加载-->
+    <bean id="studentLifeCycle2" class="org.zz.spring.guide.xml.entity.Student"/>
+</beans>

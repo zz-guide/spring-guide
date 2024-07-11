@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 使用 context:property-placeholder 标签可直接加载properties文件 -->
+    <context:property-placeholder location="classpath:properties/config.properties"/>
+
+    <bean id="constructorInjectPojo" class="org.zz.spring.guide.xml.entity.ConstructorInjectPojo">
+        <!--构造器有三种注入方式，只能使用其中的一种，不能同时使用-->
+        <!--index代表构造函数参数位置，从0开始-->
+        <constructor-arg index="0" type="java.lang.String" value="仔仔教师"/>
+        <constructor-arg index="1" type="java.lang.Integer" value="29"/>
+    </bean>
+
+    <bean id="complexConstructorInjectPojo" class="org.zz.spring.guide.xml.entity.ComplexConstructorInjectPojo">
+        <!--数组元素-->
+        <constructor-arg index="0">
+            <array>
+                <value>数组元素1</value>
+                <value>数组元素2</value>
+            </array>
+        </constructor-arg>
+
+        <!-- LIST 元素-->
+        <constructor-arg index="1">
+            <list>
+                <value>list元素1</value>
+                <value>list元素2</value>
+            </list>
+        </constructor-arg>
+        <!-- MAP 元素-->
+        <constructor-arg index="2">
+            <map>
+                <entry key="m1" value="v1"/>
+                <entry key="m2" value="v2"/>
+            </map>
+        </constructor-arg>
+
+        <!--set 元素-->
+        <constructor-arg index="3">
+            <set>
+                <value>set元素1</value>
+                <value>set元素2</value>
+            </set>
+        </constructor-arg>
+
+        <!-- properties class 属性 -->
+        <constructor-arg index="4">
+            <props>
+                <prop key="username">${db.username}</prop>
+                <prop key="password">${db.password}</prop>
+            </props>
+        </constructor-arg>
+    </bean>
+</beans>

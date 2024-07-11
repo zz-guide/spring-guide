@@ -9,10 +9,8 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.zz.spring.guide.xml</groupId>
-    <artifactId>learn-spring-xml</artifactId>
-    <name>learn-spring-xml</name>
-    <description>learn-spring-xml</description>
+    <groupId>org.zz.spring.guide.aop</groupId>
+    <artifactId>learn-spring-aop</artifactId>
 
     <dependencies>
         <dependency>

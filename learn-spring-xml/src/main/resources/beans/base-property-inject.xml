@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd"
+       xmlns:p="http://www.springframework.org/schema/p">
+
+    <bean id="extPojo" class="org.zz.spring.guide.xml.entity.ExtPojo">
+        <property name="ext" value="默认ext"/>
+    </bean>
+
+    <bean id="propertyInjectPojo" class="org.zz.spring.guide.xml.entity.PropertyInjectPojo">
+        <property name="name" value="用户"/>
+        <property name="age" value="28"/>
+        <property name="extPojo" ref="extPojo" />
+    </bean>
+
+    <!-- 简写形式，需要引入对应标签的 namespace -->
+    <bean id="propertyInjectPojoSimple" class="org.zz.spring.guide.xml.entity.PropertyInjectPojo" p:name="用户(简写形式)"
+          p:age="30"/>
+
+</beans>
