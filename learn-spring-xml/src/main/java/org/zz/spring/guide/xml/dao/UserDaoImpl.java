@@ -1,8 +1,8 @@
 package org.zz.spring.guide.xml.dao;
 
-public class UserDaoImpl implements UserDao {
-    public UserDaoImpl(){
-        System.out.println("=== UserDaoImpl 无参构造 ===");
+public class UserDaoImpl implements UserDao{
+    @Override
+    public void addUserDao() {
+        System.out.println("UserDaoImpl addUserDao() 执行了");
     }
-
 }

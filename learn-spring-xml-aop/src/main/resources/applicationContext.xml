@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="logAspect" class="org.zz.spring.guide.xml.aop.aspect.LogAspect" />
+
+    <bean id="calculatorImpl" class="org.zz.spring.guide.xml.aop.service.CalculatorImpl" />
+
+    <!--开启自动代理，为目标对象自动生成代理-->
+<!--    <aop:aspectj-autoproxy />-->
+
+    <aop:config>
+
+        <!--定义切面-->
+        <aop:aspect ref="logAspect">
+<!--            <aop:advisor />-->
+
+            <!--定义切入点-->
+            <aop:pointcut id="pt" expression="execution(* org.zz.spring.guide.xml.aop.service.CalculatorImpl.*(..))"/>
+
+            <!--定义各种通知-->
+            <aop:after method="afterMethod" pointcut-ref="pt"/>
+            <aop:before method="beforeMethod" pointcut-ref="pt"/>
+            <aop:after-returning method="afterReturningMethod" returning="result" pointcut-ref="pt"/>
+            <aop:after-throwing method="afterThrowingMethod" throwing="ex" pointcut-ref="pt"/>
+            <aop:around method="aroundMethod" pointcut-ref="pt"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

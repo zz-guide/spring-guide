@@ -11,6 +11,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class TestAnnotationConfigApplicationContext {
+    // 加载配置类
     static AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ApplicationContextConfig.class);
 
     public static ApplicationContext getApplicationContext() {

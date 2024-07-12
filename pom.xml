@@ -10,8 +10,10 @@
 
     <modules>
         <module>learn-spring-xml</module>
-        <module>learn-spring-aop</module>
+        <module>learn-spring-xml-aop</module>
         <module>learn-spring-annotation</module>
+        <module>learn-spring-xml2</module>
+        <module>learn-spring-annotation-aop</module>
     </modules>
     <version>1.0-SNAPSHOT</version>
 
@@ -22,6 +24,7 @@
         <spring.version>6.1.10</spring.version>
         <junit.jupiter.api>5.10.2</junit.jupiter.api>
         <lombok.version>1.18.32</lombok.version>
+        <jakarta.annotation.api.version>3.0.0</jakarta.annotation.api.version>
     </properties>
 
     <dependencyManagement>
@@ -42,12 +45,30 @@
                 <scope>provided</scope>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/jakarta.annotation/jakarta.annotation-api -->
+            <dependency>
+                <groupId>jakarta.annotation</groupId>
+                <artifactId>jakarta.annotation-api</artifactId>
+                <version>${jakarta.annotation.api.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
                 <version>${spring.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aspects</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

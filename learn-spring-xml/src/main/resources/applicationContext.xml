@@ -11,4 +11,7 @@
     <import resource="./beans/base-scope.xml"/>
     <import resource="./beans/base-property-inject.xml"/>
     <import resource="./beans/base-constructor-inject.xml"/>
+    <import resource="./beans/post-processor.xml"/>
+    <import resource="./beans/factory-bean.xml"/>
+    <import resource="./beans/base-autowire.xml"/>
 </beans>

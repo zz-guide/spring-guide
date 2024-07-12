@@ -22,6 +22,11 @@ public class TestBean {
         Assertions.assertNotNull(student);
         logger.log(Level.INFO, "student 对象 地址: {0}", new Object[]{System.identityHashCode(student)});
 
+        // 如果不想强转的话，传入第二个参数 class 对象
+        Student student1 = ctx.getBean("student", Student.class);
+        Assertions.assertNotNull(student1);
+        logger.log(Level.INFO, "student1 对象 地址: {0}", new Object[]{System.identityHashCode(student1)});
+
         logger.log(Level.INFO, "=== 结论 ===");
         logger.log(Level.INFO, "1. 默认调用无参构造");
         logger.log(Level.INFO, "2. 默认启动的时候就提前把对象初始化好了");

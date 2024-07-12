@@ -3,6 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
-    <!--bean factory后置处理器-->
-<!--    <bean id="bfpp" class="com.xulei.processor.MyBeanFactoryPostProcessor"/>-->
+    <!--factory 这种机制通常用来整合第三方-->
+    <bean id="factoryPostProcessor" class="org.zz.spring.guide.xml.processor.MyBeanFactoryPostProcessor"/>
 </beans>
